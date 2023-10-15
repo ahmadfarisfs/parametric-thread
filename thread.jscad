@@ -89,3 +89,6 @@ function thread(majorDiameter=47, pitch=1.5, height=19, holeDiameter=39, counter
 	
 	return thread;
 }
+
+// A declaration of what elements in the module (this file) are externally available.
+module.exports = { main }
