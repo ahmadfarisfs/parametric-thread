@@ -1,5 +1,4 @@
 const jscad = require('@jscad/modeling')
-const { sin,cos } = jscad.utils
 
 function getParameterDefinitions(){
 	return [
