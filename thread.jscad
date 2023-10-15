@@ -1,3 +1,4 @@
+const {abs,  cos,  tan,  sin}  = Math; 
 function getParameterDefinitions(){
 	return [
 		{name:'majorDiameter',  caption:'major diameter:',	type:'float',initial:59,	min:0.1,max:4200,step:0.1	},
