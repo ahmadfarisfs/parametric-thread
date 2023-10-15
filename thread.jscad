@@ -36,7 +36,7 @@ function main(p){
 function thread(majorDiameter=47, pitch=1.5, height=19, holeDiameter=39, counterpart=false, resolution=64){
 
 	var threadAngle = 90; //60=ISO, 90=3d printer friendly
-	var vshapeHeight = (1/Math.tan(threadAngle/2)) * pitch; //H
+	var vshapeHeight = (1/(sin(threadAngle/2)/cos(threadAngle/2))) * pitch; //H
 	var minimalDiameter = majorDiameter-2 * (5/8) * vshapeHeight; //Dmin
 	var truncatedWidthBottom = pitch/4;
 	var truncatedWidthTop = pitch/8;
