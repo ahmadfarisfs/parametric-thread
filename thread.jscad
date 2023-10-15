@@ -1,3 +1,6 @@
+const jscad = require('@jscad/modeling')
+const { sin,cos } = jscad.utils
+
 function getParameterDefinitions(){
 	return [
 		{name:'majorDiameter',  caption:'major diameter:',	type:'float',initial:59,	min:0.1,max:4200,step:0.1	},
